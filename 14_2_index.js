@@ -1,4 +1,4 @@
-// import Entity from './entity';
+// import Entity from './14_1_entity';
 //
 // part 1:
 // class Hobbit extends Entity {
