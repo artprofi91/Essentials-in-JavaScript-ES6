@@ -198,3 +198,7 @@ class View {
   }
 }
 ```
+
+For better uderstanding of the ES6 I used:
+* ([Book - Speaking JavaScript: An In-Depth Guide for Programmers](https://www.amazon.com/Speaking-JavaScript-Depth-Guide-Programmers/dp/1449365035/ref=sr_1_2?ie=UTF8&qid=1504639751&sr=8-2&keywords=exploring+es6));
+* Udemy course - Essentials in JavaScript ES6 - A Fun and Clear Introduction.
