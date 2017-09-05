@@ -180,3 +180,21 @@ Being built into the language allows ES6 modules to go beyond CommonJS and AMD (
 The ES6 module standard has two parts:
 * Declarative syntax (for importing and exporting)
 * Programmatic loader API: to configure how modules are loaded and to conditionally load modules
+
+## 13-14 Classes
+
+ES6 classes are syntactical sugar over the Objects and prototypes that we’re used to working with. They simply offer a much nicer, cleaner and clearer syntax for creating these objects and dealing with inheritance.
+
+To show this in action we’re going to build our own small (and very simplified) framework for building web applications to demonstrate using classes. We’re going to have two classes, one to represent a view, and another to represent a model. Here’s the View class:
+```
+class View {
+  constructor(options) {
+    this.model = options.model;
+    this.template = options.template;
+  }
+
+  render() {
+    return _.template(this.template, this.model.toObject());
+  }
+}
+```
