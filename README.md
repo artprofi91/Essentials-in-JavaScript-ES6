@@ -169,14 +169,14 @@ map.set(Symbol('items'), [1, 2])
 ## 11-12 Modules
 
 The goal for ECMAScript 6 modules was to create a format that both users of CommonJS and of AMD are happy with:
-    *Similarly to CommonJS, they have a compact syntax, a preference for single exports and support for cyclic dependencies.
-Similarly to AMD, they have direct support for asynchronous loading and configurable module loading.
+* Similarly to CommonJS, they have a compact syntax, a preference for single exports and support for cyclic dependencies.
+* Similarly to AMD, they have direct support for asynchronous loading and configurable module loading.
+
 Being built into the language allows ES6 modules to go beyond CommonJS and AMD (details are explained later):
+* Their syntax is even more compact than CommonJS’s.
+* Their structure can be statically analyzed (for static checking, optimization, etc.).
+* Their support for cyclic dependencies is better than CommonJS’s.
 
-Their syntax is even more compact than CommonJS’s.
-Their structure can be statically analyzed (for static checking, optimization, etc.).
-Their support for cyclic dependencies is better than CommonJS’s.
 The ES6 module standard has two parts:
-
-Declarative syntax (for importing and exporting)
-Programmatic loader API: to configure how modules are loaded and to conditionally load modules
+* Declarative syntax (for importing and exporting)
+* Programmatic loader API: to configure how modules are loaded and to conditionally load modules
